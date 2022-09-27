@@ -3,12 +3,12 @@ class main:
         self.a=a
         self.b=b
         self.c=c
-    def performAction(a,b,c):
+    def performAction(self,a,b,c):
         if(c=="+"):
             return a+b
         elif(c=="-"):
-            return a+b
-        elif(c=="+"):
+            return a-b
+        elif(c=="*"):
             return a*b
         elif(c=="/"):
             return a/b
